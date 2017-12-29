@@ -15,6 +15,7 @@
         <string name="wallet_add_new">添加新卡</string>
         <string name="welcome">立即体验</string>
         <string name="sys_err_server_fail">正在抢修中!</string>
+        <string name="hint_no_content">暂无内容哦!</string>
 
         <string name="msg_toolbar_no_found">ToolBar未注入:\n1、布局文件是否包含了ToolBar；2、java代码是否正确使用了inject操作?</string>
 

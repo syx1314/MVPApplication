@@ -19,5 +19,7 @@
     <dimen name="sp_header">18sp</dimen>
     <dimen name="sp_header2_or_button">20sp</dimen>
     <dimen name="sp_bigest">22sp</dimen>
-
+    <!-- typical sizes of views -->
+    <dimen name="button_height_small">30dp</dimen>
+    <dimen name="button_height_medium">44dp</dimen>
 </resources>
