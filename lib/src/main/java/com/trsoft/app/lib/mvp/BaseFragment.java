@@ -1,4 +1,4 @@
-package com.trsoft.app.mvpapplication.mvp.base;
+package com.trsoft.app.lib.mvp;
 
 import android.app.Fragment;
 import android.os.Bundle;

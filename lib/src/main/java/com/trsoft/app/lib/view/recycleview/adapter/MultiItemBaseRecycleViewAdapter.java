@@ -1,12 +1,11 @@
-package com.trsoft.app.mvpapplication;
+package com.trsoft.app.lib.view.recycleview.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.trsoft.app.mvpapplication.BaseRecycleViewAdapter;
-import com.trsoft.app.mvpapplication.MultiItemTypeSupport;
-import com.trsoft.app.mvpapplication.ViewHolder;
+import com.trsoft.app.lib.view.recycleview.MultiItemTypeSupport;
+import com.trsoft.app.lib.view.recycleview.ViewHolder;
 
 import java.util.List;
 

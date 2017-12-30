@@ -1,4 +1,4 @@
-package com.trsoft.app.mvpapplication.http;
+package com.trsoft.app.lib.http;
 
 
 /**

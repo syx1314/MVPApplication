@@ -1,4 +1,4 @@
-package com.trsoft.app.mvpapplication;
+package com.trsoft.app.lib.http;
 
 import com.google.gson.JsonParseException;
 

@@ -1,4 +1,4 @@
-package com.trsoft.app.mvpapplication;
+package com.trsoft.app.lib.view.recycleview;
 
 import android.content.Context;
 import android.content.res.TypedArray;

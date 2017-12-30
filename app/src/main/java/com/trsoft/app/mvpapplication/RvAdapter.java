@@ -1,11 +1,9 @@
 package com.trsoft.app.mvpapplication;
 
 import android.support.annotation.LayoutRes;
-import android.support.v7.widget.RecyclerView;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.TextView;
+
+import com.trsoft.app.lib.view.recycleview.ViewHolder;
+import com.trsoft.app.lib.view.recycleview.adapter.BaseRecycleViewAdapter;
 
 import java.util.List;
 

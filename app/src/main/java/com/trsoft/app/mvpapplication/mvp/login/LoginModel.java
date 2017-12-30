@@ -1,8 +1,7 @@
 package com.trsoft.app.mvpapplication.mvp.login;
 
-import com.orhanobut.logger.Logger;
-import com.trsoft.app.mvpapplication.http.ApiResultBean;
-import com.trsoft.app.mvpapplication.http.IApiReturn;
+import com.trsoft.app.lib.http.ApiResultBean;
+import com.trsoft.app.lib.http.IApiReturn;
 import com.trsoft.app.mvpapplication.http.UserApiService;
 
 
@@ -17,6 +16,7 @@ public class LoginModel extends LoginContact.ILoginModel {
 
     @Override
     public void sendCode(String phone, final LoginContact.ILoginListener loginListener) {
+
         //网络访问
         Subscribe(getApiService(UserApiService.class).registerCheckInfo(phone), new IApiReturn<String>() {
             @Override

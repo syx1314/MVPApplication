@@ -1,9 +1,9 @@
 package com.trsoft.app.mvpapplication.mvp.login;
 
 
-import com.orhanobut.logger.Logger;
-import com.trsoft.app.mvpapplication.http.ApiResultBean;
-import com.trsoft.app.mvpapplication.mvp.base.BasePresenter;
+import com.trsoft.app.lib.http.ApiResultBean;
+import com.trsoft.app.lib.mvp.BasePresenter;
+
 
 /**
  *
@@ -38,12 +38,8 @@ public class LoginPresenter extends BasePresenter<LoginContact.ILoginView> imple
     public void codeResponse(ApiResultBean<String> apiResult) {
         loginView.sendCodeResult(apiResult);
     }
-
-
     @Override
     public void error(String msg) {
-
             loginView.error(msg);
-
     }
 }

@@ -1,4 +1,4 @@
-package com.trsoft.app.mvpapplication.mvp.base;
+package com.trsoft.app.lib.mvp;
 
 /**
  * @author yyj

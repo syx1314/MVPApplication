@@ -1,12 +1,11 @@
-package com.trsoft.app.mvpapplication.mvp.base;
+package com.trsoft.app.lib.mvp;
 
-import com.orhanobut.logger.Logger;
+import com.trsoft.app.lib.constant.Constant;
+import com.trsoft.app.lib.http.ApiException;
+import com.trsoft.app.lib.http.ApiResultBean;
 import com.trsoft.app.lib.http.ApiService;
+import com.trsoft.app.lib.http.IApiReturn;
 import com.trsoft.app.lib.rx.RxApiManager;
-import com.trsoft.app.mvpapplication.ApiException;
-import com.trsoft.app.mvpapplication.constant.Constant;
-import com.trsoft.app.mvpapplication.http.ApiResultBean;
-import com.trsoft.app.mvpapplication.http.IApiReturn;
 
 
 import rx.Observable;
@@ -20,6 +19,8 @@ import rx.schedulers.Schedulers;
  */
 
 public abstract class BaseModel implements IBaseModel {
+
+
 
     /**
      * 得到API的Service

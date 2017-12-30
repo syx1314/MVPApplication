@@ -1,7 +1,4 @@
-package com.trsoft.app.mvpapplication.http;
-
-import com.google.gson.annotations.JsonAdapter;
-
+package com.trsoft.app.lib.http;
 
 
 /**

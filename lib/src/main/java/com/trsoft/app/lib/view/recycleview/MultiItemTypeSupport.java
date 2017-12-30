@@ -1,4 +1,4 @@
-package com.trsoft.app.mvpapplication;
+package com.trsoft.app.lib.view.recycleview;
 
 /**
  * Created by yyj on 2017/12/29.

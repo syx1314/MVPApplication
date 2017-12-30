@@ -2,6 +2,8 @@ package com.trsoft.app.mvpapplication.http;
 
 
 
+import com.trsoft.app.lib.http.ApiResultBean;
+
 import java.util.List;
 
 import retrofit2.http.DELETE;

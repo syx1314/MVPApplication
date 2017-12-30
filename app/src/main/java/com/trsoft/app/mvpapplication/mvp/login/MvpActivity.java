@@ -11,7 +11,6 @@ import com.trsoft.app.lib.utils.DialogUtil;
 import com.trsoft.app.lib.utils.Validator;
 import com.trsoft.app.mvpapplication.MainActivity;
 import com.trsoft.app.mvpapplication.R;
-import com.trsoft.app.mvpapplication.http.ApiResultBean;
 import com.trsoft.app.mvpapplication.mvp.base.BaseActivity;
 
 
